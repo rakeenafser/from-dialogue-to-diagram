@@ -100,9 +100,7 @@ Using the Heart Disease analysis as the main evaluated case study:
 
 ## Interactive Visualisation
 
-An interactive version of the graph visualisation is available on Observable.
-
-https://observablehq.com/@rakeens-workplace/from-dialogue-to-diagram-structuring-and-visualizi
+[View Interactive Visualisation on Observable →](https://observablehq.com/@rakeens-workplace/from-dialogue-to-diagram-structuring-and-visualizi)
 
 ## MSc Data Science Dissertation
 
