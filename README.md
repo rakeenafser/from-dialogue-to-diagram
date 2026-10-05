@@ -17,6 +17,24 @@ Human–LLM analytical conversations are usually presented as long linear chat l
 
 This project addresses that problem by converting analytical conversations into structured visual representations that make the relationship between an LLM's **self-reported reasoning** and its **observable behaviour** easier to inspect.
 
+## Method
+
+The project uses a dual-layer framework to compare how an LLM describes its analytical reasoning with what it actually does during a Human–LLM data analysis conversation.
+
+The workflow involved:
+
+- Collecting analytical conversations across **Heart Disease, UK House Price Index and CO₂ emissions** use cases.
+- Structuring conversation turns using **JSON-based logging**.
+- Creating a **behavioural layer** representing the observable analytical conversation.
+- Creating a **cognitive layer** representing the LLM's structured self-reported reasoning.
+- Processing and cleaning the logs in **Python**.
+- Converting the processed data into **node-link graph structures**.
+- Visualising the graphs interactively using **Observable and D3.js**.
+- Evaluating alignment using **semantic, structural and analytical completeness** measures.
+
+The Heart Disease case study was used as the primary dual-layer evaluation case.
+
+
 ## Project Pipeline
 
 Raw Human–LLM Conversations  
