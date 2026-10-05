@@ -43,6 +43,16 @@ Raw Human–LLM Conversations
 → Interactive Visualisation  
 → Alignment & Divergence Evaluation
 
+## Visualisations
+
+### Behavioural Graph Interface
+
+![Behavioural Graph Interface](Assets/behavioural_graph_interface.png)
+
+### Cognitive Graph
+
+![Cognitive Graph](Assets/cognitive_graph.png)
+
 ## Key Results
 
 Using the Heart Disease analysis as the main evaluated case study:
