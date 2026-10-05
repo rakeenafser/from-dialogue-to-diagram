@@ -11,6 +11,12 @@ The framework separates an LLM interaction into two layers:
 
 These layers are converted into graph structures and compared to investigate alignment, reasoning drift, omissions and differences between intended and observed analytical behaviour.
 
+## Problem
+
+Human–LLM analytical conversations are usually presented as long linear chat logs, making it difficult to inspect how an analysis develops, whether planned analytical steps are actually followed, and where reasoning may diverge or drift.
+
+This project addresses that problem by converting analytical conversations into structured visual representations that make the relationship between an LLM's **self-reported reasoning** and its **observable behaviour** easier to inspect.
+
 ## Project Pipeline
 
 Raw Human–LLM Conversations  
