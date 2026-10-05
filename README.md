@@ -52,6 +52,13 @@ Using the Heart Disease analysis as the main evaluated case study:
 - Divergence appeared through **expansion, compression and omission** of analytical steps.
 - The visual comparison helped identify examples of **reasoning drift**, showing that the LLM's stated analytical plan acted more like a flexible guide than a strict execution sequence.
 
+## Limitations
+
+- The full dual-layer evaluation was conducted only on the **Heart Disease** case study, so results may differ across other domains, tasks or prompting styles.
+- The cognitive layer is based on **LLM self-reported reasoning** and should not be treated as direct access to the model's hidden internal computation.
+- The semantic alignment process uses manually defined verb and noun groupings, which introduces some **human judgement** into the evaluation.
+- The current diagrams show reasoning structure, but do not represent **uncertainty, confidence or probability**.
+
 
 ## Technologies
 
