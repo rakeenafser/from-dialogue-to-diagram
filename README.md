@@ -30,10 +30,13 @@ Raw Human–LLM Conversations
 - Jupyter Notebook
 - Visual Analytics
 
-## Current Repository Contents
 
-- `01_data_cleaning.ipynb` — cleans and structures the raw conversation logs
-- `02_evaluation.ipynb` — evaluates cognitive and behavioural reasoning alignment
+## Repository Structure
+
+- `notebooks/01_data_cleaning.ipynb` — cleans and structures the raw Human–LLM conversation logs.
+- `notebooks/02_evaluation.ipynb` — evaluates alignment between the cognitive and behavioural reasoning representations.
+- `data/raw/` — contains the original Human–LLM conversation logs used in the project.
+- `data/processed/` — contains cleaned JSON graph data used for visualisation and evaluation.
 
 ## Interactive Visualisation
 
