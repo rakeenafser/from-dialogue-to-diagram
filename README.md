@@ -19,6 +19,16 @@ Raw Human–LLM Conversations
 → Interactive Visualisation  
 → Alignment & Divergence Evaluation
 
+## Key Results
+
+Using the Heart Disease analysis as the main evaluated case study:
+
+- Most cognitive reasoning nodes showed **90–100% semantic alignment** with the corresponding behavioural output.
+- Despite the high overall alignment, the analysis revealed **localised divergence** between stated reasoning and observed behaviour.
+- Divergence appeared through **expansion, compression and omission** of analytical steps.
+- The visual comparison helped identify examples of **reasoning drift**, showing that the LLM's stated analytical plan acted more like a flexible guide than a strict execution sequence.
+
+
 ## Technologies
 
 - Python
