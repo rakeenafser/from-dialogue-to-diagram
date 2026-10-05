@@ -89,6 +89,15 @@ Using the Heart Disease analysis as the main evaluated case study:
 - `data/raw/` — contains the original Human–LLM conversation logs used in the project.
 - `data/processed/` — contains cleaned JSON graph data used for visualisation and evaluation.
 
+## How to Run
+
+1. Clone or download this repository.
+2. Open the notebooks in Jupyter Notebook or JupyterLab.
+3. Run `notebooks/01_data_cleaning.ipynb` to process the raw conversation logs.
+4. Run `notebooks/02_evaluation.ipynb` to evaluate alignment between the cognitive and behavioural graph structures.
+5. Explore the interactive visualisation using the Observable link below.
+
+
 ## Interactive Visualisation
 
 An interactive version of the graph visualisation is available on Observable.
